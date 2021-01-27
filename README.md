@@ -22,7 +22,8 @@ An application for media organization and categorization. An easier way to organ
 
 ### Roadmap
 - [x] Create the ReadMe File
-- [ ] Setup the solution & project layout
+- [X] Setup the solution & project layout
+- [X] Setup Database Models
 - [ ] Setup EF service
 - [ ] Setup WPF application
 - [ ] More wil steps will be added over times
