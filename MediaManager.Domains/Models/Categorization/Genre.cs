@@ -8,6 +8,6 @@ namespace MediaManager.Domains.Models
 
         public string Description { get; set; }
 
-        public virtual ICollection<Media> MediaEntities { get; set; }
+        public virtual ICollection<MediaGenre> MediaGenre { get; set; }
     }
 }

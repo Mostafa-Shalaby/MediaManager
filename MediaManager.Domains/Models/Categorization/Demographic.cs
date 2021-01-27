@@ -2,7 +2,7 @@
 
 namespace MediaManager.Domains.Models
 {
-    public class Demographic
+    public class Demographic : DataModel
     {
         public string Name { get; set; }
 

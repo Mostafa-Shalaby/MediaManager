@@ -19,7 +19,7 @@ namespace MediaManager.Domains.Models
 
         public Language Language { get; set; }
 
-        public virtual ICollection<Genre> Genres { get; set; }
+        public virtual ICollection<MediaGenre> MediaGenres { get; set; }
 
         public ICollection<MediaDirectory> MediaDirectories { get; set; }
 
