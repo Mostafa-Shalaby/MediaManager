@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.Domains", "MediaManager.Domains\MediaManager.Domains.csproj", "{33AD544F-AE7E-4B6E-A314-58AE683122F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaManager.Domains", "MediaManager.Domains\MediaManager.Domains.csproj", "{33AD544F-AE7E-4B6E-A314-58AE683122F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.EF", "MediaManager.EF\MediaManager.EF.csproj", "{FD73DFFB-74EE-4451-A545-4F641E9F7222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaManager.EF", "MediaManager.EF\MediaManager.EF.csproj", "{FD73DFFB-74EE-4451-A545-4F641E9F7222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.WPF", "MediaManager.WPF\MediaManager.WPF.csproj", "{D3EB7F60-D808-4030-95FC-973886F281C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FD73DFFB-74EE-4451-A545-4F641E9F7222}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD73DFFB-74EE-4451-A545-4F641E9F7222}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD73DFFB-74EE-4451-A545-4F641E9F7222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EB7F60-D808-4030-95FC-973886F281C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EB7F60-D808-4030-95FC-973886F281C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EB7F60-D808-4030-95FC-973886F281C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EB7F60-D808-4030-95FC-973886F281C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mostafa Shalaby</Authors>
+    <Company>ShaMos</Company>
+    <Description>Main Domains Library holding data models other service interfaces. as well as some independent impletmentations of services.</Description>
+    <RepositoryType>Open Source</RepositoryType>
+    <RepositoryUrl>https://github.com/Mostafa-Shalaby/MediaManager</RepositoryUrl>
+    <Copyright>Copyrights Mostafa Shalaby 2021</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

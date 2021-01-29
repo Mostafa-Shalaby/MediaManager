@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mostafa Shalaby</Authors>
+    <Description>A Library holding all EntityFramework Related Services</Description>
+    <Copyright>Copyrights Mostafa Shalaby 2021</Copyright>
+    <RepositoryType>Open Source</RepositoryType>
+    <RepositoryUrl>https://github.com/Mostafa-Shalaby/MediaManager</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

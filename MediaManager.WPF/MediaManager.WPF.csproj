@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Version>0.1.0.0</Version>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <Authors>Mostafa Shalaby</Authors>
+    <Company>ShaMos</Company>
+    <PackageId>MediaManager</PackageId>
+    <Product>MediaManager</Product>
+    <RepositoryType>Open Source</RepositoryType>
+    <RepositoryUrl>https://github.com/Mostafa-Shalaby/MediaManager</RepositoryUrl>
+    <ApplicationIcon>Assets\MediaManager-Icon.ico</ApplicationIcon>
+    <PackageIcon>MediaManager-Logo.png</PackageIcon>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Description>An application for media organization and categorization. An easier way to organize your library of entertainment media.</Description>
+    <Copyright>Copyrights Mostafa Shalaby 2021</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\MediaManager-Icon.ico" />
+    <None Remove="Assets\MediaManager-Logo.png" />
+    <None Include="Assets\MediaManager-Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaManager.Domains\MediaManager.Domains.csproj" />
+    <ProjectReference Include="..\MediaManager.EF\MediaManager.EF.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\MediaManager-Icon.ico" />
+    <Resource Include="Assets\MediaManager-Logo.png" />
+  </ItemGroup>
+
+</Project>

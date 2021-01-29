@@ -25,7 +25,7 @@ An application for media organization and categorization. An easier way to organ
 - [X] Setup the solution & project layout
 - [X] Setup Database Models
 - [X] Setup EF data service
-- [ ] Setup WPF application
+- [X] Setup WPF application
 - [ ] Setup DI container.
 - [ ] Setup MVVM environment (ObservableObject, ViewModel, etc..).
 - [ ] Setup Navigation.
@@ -33,9 +33,12 @@ An application for media organization and categorization. An easier way to organ
 - [ ] Setup Some Views.
 - [ ] More wil steps will be added over times
 
+- [ ] Optional : Adding a logging service (Nlog possibly..)
+- [ ] Optional : Setup some sort of AppConfig (Xaml file, or using the AppConfig.json).
+
 ---
 
 ### Status of the project
-: *Alive & Still Underconstruction.*
+ *Alive & Still Underconstruction.*
 
 ---
