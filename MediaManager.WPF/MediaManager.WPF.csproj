@@ -33,6 +33,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="PropertyChanged.Fody" Version="3.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MediaManager.Domains\MediaManager.Domains.csproj" />
     <ProjectReference Include="..\MediaManager.EF\MediaManager.EF.csproj" />
   </ItemGroup>

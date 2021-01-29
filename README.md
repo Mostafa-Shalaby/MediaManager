@@ -26,10 +26,10 @@ An application for media organization and categorization. An easier way to organ
 - [X] Setup Database Models
 - [X] Setup EF data service
 - [X] Setup WPF application
+- [X] Setup MVVM environment (ViewModelBase)
+- [X] Setup VM communication (Mediator Pattern Messaging System)
 - [ ] Setup DI container.
-- [ ] Setup MVVM environment (ObservableObject, ViewModel, etc..).
 - [ ] Setup Navigation.
-- [ ] Setup VM communication (Some messaging system)
 - [ ] Setup Some Views.
 - [ ] More wil steps will be added over times
 
