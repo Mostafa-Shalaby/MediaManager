@@ -28,11 +28,12 @@ An application for media organization and categorization. An easier way to organ
 - [X] Setup WPF application
 - [X] Setup MVVM environment (ViewModelBase)
 - [X] Setup VM communication (Mediator Pattern Messaging System)
-- [ ] Setup DI container.
+- [X] Setup DI container (Rough Implementation).
 - [ ] Setup Navigation.
 - [ ] Setup Some Views.
 - [ ] More wil steps will be added over times
 
+- [ ] Optional : Better Setup for DI using HostBuilder.
 - [ ] Optional : Adding a logging service (Nlog possibly..)
 - [ ] Optional : Setup some sort of AppConfig (Xaml file, or using the AppConfig.json).
 

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using MediaManager.WPF.State.Messengers;
+using MediaManager.WPF.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Windows;
 
 namespace MediaManager.WPF
@@ -15,9 +13,25 @@ namespace MediaManager.WPF
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            var window = new MainWindow();
+            IServiceProvider serviceProvider = CreateServiceProvider();
+
+            Window window = serviceProvider.GetRequiredService<MainWindow>();
             window.Show();
+
             base.OnStartup(e);
+        }
+
+        private IServiceProvider CreateServiceProvider()
+        {
+            IServiceCollection services = new ServiceCollection();
+
+            // Messenging Service Between ViewModels
+            services.AddScoped<IMessenger, Messenger>();
+
+            services.AddScoped<MainViewModel>();
+            services.AddSingleton<MainWindow>(s => new MainWindow(s.GetRequiredService<MainViewModel>()));
+
+            return services.BuildServiceProvider();
         }
     }
 }
