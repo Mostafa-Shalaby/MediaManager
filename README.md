@@ -24,8 +24,13 @@ An application for media organization and categorization. An easier way to organ
 - [x] Create the ReadMe File
 - [X] Setup the solution & project layout
 - [X] Setup Database Models
-- [ ] Setup EF service
+- [X] Setup EF data service
 - [ ] Setup WPF application
+- [ ] Setup DI container.
+- [ ] Setup MVVM environment (ObservableObject, ViewModel, etc..).
+- [ ] Setup Navigation.
+- [ ] Setup VM communication (Some messaging system)
+- [ ] Setup Some Views.
 - [ ] More wil steps will be added over times
 
 ---

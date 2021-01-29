@@ -7,7 +7,7 @@ namespace MediaManager.EF.Database
 {
     public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
-        public AppDbContext CreateDbContext(string[] args)
+        public AppDbContext CreateDbContext(string[] args = null)
         {
             DbContextOptionsBuilder builder = new DbContextOptionsBuilder();
             if (!Directory.Exists(AppFilePath.ProgramAppData))

@@ -7,11 +7,11 @@ namespace MediaManager.Domains.Services
 {
     public interface IDataService<T>
     {
-        Task<T> Create();
+        Task<T> Create(T entity);
 
-        Task<T> Update();
+        Task<T> Update(int id, T entity);
 
-        Task<bool> Delete();
+        Task<bool> Delete(int id);
 
         Task<T> Get(int id);
 
